@@ -173,7 +173,7 @@
   ],
   "assets": {
     "gec": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/bb17c467-a6a8-41f0-80d8-2da88af9475b/2024-02-15-03-30-26_UMBRA-06/2024-02-15-03-30-26_UMBRA-06_GEC.tif",
+      "href": "https://github.com/relativeorbit/workflows/releases/download/test/2024-02-15-03-30-26_UMBRA-06_GEC.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "raster:bands": [
         {
