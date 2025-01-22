@@ -1,0 +1,92 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "2024-02-15-03-30-26_UMBRA-06_GEC.tif",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -79.61350819116612,
+          8.941726366625119
+        ],
+        [
+          -79.54925740032105,
+          8.941726366625119
+        ],
+        [
+          -79.54925740032105,
+          9.005608046514665
+        ],
+        [
+          -79.61350819116612,
+          9.005608046514665
+        ],
+        [
+          -79.61350819116612,
+          8.941726366625119
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -79.61350819116612,
+    8.941726366625119,
+    -79.54925740032105,
+    9.005608046514665
+  ],
+  "properties": {
+    "datetime": "2025-01-22T15:03:24.331443Z"
+  },
+  "links": [],
+  "assets": {
+    "data": {
+      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/bb17c467-a6a8-41f0-80d8-2da88af9475b/2024-02-15-03-30-26_UMBRA-06/2024-02-15-03-30-26_UMBRA-06_GEC.tif",
+      "type": "image/tiff; application=geotiff",
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "scale": 1,
+          "offset": 0,
+          "sampling": "area",
+          "nodata": 0,
+          "statistics": {
+            "mean": 21.673484802246094,
+            "minimum": 1,
+            "maximum": 254,
+            "stddev": 21.97018807823054,
+            "valid_percent": 100
+          },
+          "histogram": {
+            "count": 11,
+            "min": 1,
+            "max": 254,
+            "buckets": [
+              701120,
+              249619,
+              69896,
+              19634,
+              5819,
+              1773,
+              536,
+              125,
+              45,
+              9
+            ]
+          }
+        }
+      ],
+      "eo:bands": [
+        {
+          "name": "b1",
+          "description": "gray"
+        }
+      ],
+      "roles": []
+    }
+  }
+}
