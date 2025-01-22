@@ -35,6 +35,7 @@
     ]
   },
   "bbox": [
+    -108.69936254730247,
     38.70656329450682,
     -107.38763948191713,
     39.72681533109139
@@ -80,9 +81,9 @@
     ],
     "proj:transform": [
       20,
-      -0.0000020911412757346902,
+      0,
       699960,
-      -0.0000020911412757346902,
+      0,
       -20,
       4400040,
       0,
@@ -210,7 +211,7 @@
   "links": [],
   "assets": {
     "data": {
-      "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/bb17c467-a6a8-41f0-80d8-2da88af9475b/2024-02-15-03-30-26_UMBRA-06/2024-02-15-03-30-26_UMBRA-06_GEC",
+      "href": "https://sentinel-s1-rtc-indigo.s3.us-west-2.amazonaws.com/tiles/RTC/1/IW/12/S/YJ/2021/S1A_20210129_12SYJ_DSC/Gamma0_VH.tif",
       "type": "image/tiff; application=geotiff",
       "raster:bands": [
         {
