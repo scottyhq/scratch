@@ -92,7 +92,28 @@
     ],
     "datetime": "2025-01-22T13:39:38.889294Z"
   },
-  "links": [],
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://www.indigoag.com/forms/atlas-sentinel-license"
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-1 RTC CONUS"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
   "assets": {
     "data": {
       "href": "https://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama+Canal,+Panama/bb17c467-a6a8-41f0-80d8-2da88af9475b/2024-02-15-03-30-26_UMBRA-06/2024-02-15-03-30-26_UMBRA-06_GEC.tif",
